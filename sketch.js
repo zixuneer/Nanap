@@ -76,6 +76,12 @@ if(mouseX>960&&mouseX<1050&&mouseY>100&&mouseY<130){
 }
 
 function mousePressed(){
+
+  if(mouseX>140&&mouseX<230&&mouseY>420&&mouseY<450){
+    fill('#E3A72F');
+    window.location.href = "customize.html";
+  }
+
   if(mouseX>600&&mouseX<690&&mouseY>100&&mouseY<130){
     fill('#E3A72F');
     window.location.href = "index.html";
