@@ -1,6 +1,6 @@
 var img;
 function preload(){
-  img = loadImage('bg4.png');
+  img = loadImage('bg3.png');
 }
 
 function setup() {

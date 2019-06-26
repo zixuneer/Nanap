@@ -76,8 +76,23 @@ if(mouseX>960&&mouseX<1050&&mouseY>100&&mouseY<130){
 }
 
 function mousePressed(){
+  if(mouseX>600&&mouseX<690&&mouseY>100&&mouseY<130){
+    fill('#E3A72F');
+    window.location.href = "index.html";
+  }
+
   if(mouseX>720&&mouseX<810&&mouseY>100&&mouseY<130){
     fill('#058789');
+    window.location.href = "use.html";
+  }
+
+  if(mouseX>840&&mouseX<930&&mouseY>100&&mouseY<130){
+    fill('#D54B1A');
+    window.location.href = "comment.html";
+  }
+
+  if(mouseX>960&&mouseX<1050&&mouseY>100&&mouseY<130){
+    fill('#503D2E');
     window.location.href = "customize.html";
   }
 
