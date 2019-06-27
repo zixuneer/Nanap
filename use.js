@@ -1,6 +1,8 @@
 var img;
+var clanpro;
 function preload(){
   img = loadImage('bg2.png');
+  clanpro = loadFont('clanpro.otf');
 }
 
 function setup() {
@@ -11,10 +13,10 @@ function draw() {
   image(img, 0, 0, width, height);
 
   noStroke();
-  textSize(13);
-  textFont('Yantramanav');
+  textSize(10);
+  textFont(clanpro);
   textAlign(CENTER);
-  fill(100);
+  fill(140);
   text('About', width/2.13+45, height/6.6+20);
   text('How to Use', width/2.13+165, height/6.6+20);
   text('Comments', width/2.13+285, height/6.6+20);
